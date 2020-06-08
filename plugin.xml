@@ -83,9 +83,7 @@
       <string>production</string>
     </config-file>
 
-
-    <header-file src="src/ios/OneSignal.h" />
-    <source-file src="src/ios/libOneSignal.a" framework="true" />
+    <framework src="src/ios/OneSignal.framework" custom="true" />
 
     <header-file src="src/ios/OneSignalPush.h" />
     <source-file src="src/ios/OneSignalPush.m" />
